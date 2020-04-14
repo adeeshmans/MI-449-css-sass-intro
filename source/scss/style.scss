@@ -1,0 +1,65 @@
+$first-color: #50514f;
+$second-color: #f25f5c;
+$third-color: #ffe066;
+$fourth-color: #247ba0;
+$fifth-color: #70c1b3;
+$sixth-color: #011627;
+$seventh-color: #fdfffc;
+
+$font: Arial, Helvetica, sans-serif;
+
+$font-base-size: 10px;
+
+body {
+  background-color: $sixth-color;
+  font-family: $font;
+}
+
+p {
+  color: fade-out($third-color, 0.2);
+  font-size: $font-base-size * 2;
+}
+
+h1 {
+  color: $third-color;
+}
+
+h2 {
+  color: $second-color;
+}
+
+h3 {
+  color: darken($second-color, 10%);
+}
+
+h4 {
+  color: $seventh-color;
+}
+
+h5 {
+  color: $fifth-color;
+}
+
+h6 {
+  color: darken($third-color, 10%);
+}
+
+input {
+  font-size: $font-base-size * 2;
+}
+
+textarea {
+  font-size: $font-base-size * 5;
+}
+
+figcaption {
+  color: $second-color;
+}
+
+thead {
+  color: $third-color;
+}
+
+tbody {
+  color: $fourth-color;
+}
