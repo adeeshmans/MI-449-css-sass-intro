@@ -1,14 +1,4 @@
-$first-color: #50514f;
-$second-color: #f25f5c;
-$third-color: #ffe066;
-$fourth-color: #247ba0;
-$fifth-color: #70c1b3;
-$sixth-color: #011627;
-$seventh-color: #fdfffc;
-
-$font: Arial, Helvetica, sans-serif;
-
-$font-base-size: 10px;
+@import "_variables.scss";
 
 body {
   background-color: $sixth-color;
@@ -46,14 +36,19 @@ h6 {
 
 input {
   font-size: $font-base-size * 2;
+  border-radius: $radius;
+  font-family: $font;
 }
 
 textarea {
   font-size: $font-base-size * 5;
+  border-radius: $radius;
+  font-family: $font;
 }
 
 figcaption {
   color: $second-color;
+
 }
 
 thead {
